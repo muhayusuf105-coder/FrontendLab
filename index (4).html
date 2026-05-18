@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Muhammad Yusuf | Portfolio</title>
+<link rel="stylesheet" href="style (1).css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+<div class="noise"></div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-bg">
+    <span class="orb orb1"></span>
+    <span class="orb orb2"></span>
+    <span class="orb orb3"></span>
+  </div>
+
+  <nav class="nav">
+    <div class="logo">MYS <span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="#projects">Loyihalar</a>
+      <a href="#skills">Ko'nikmalar</a>
+      <a href="#contact">Aloqa</a>
+    </div>
+    <button class="burger" id="burger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#projects" class="mm-link">Loyihalar</a>
+    <a href="#skills" class="mm-link">Ko'nikmalar</a>
+    <a href="#contact" class="mm-link">Aloqa</a>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-tag"><i class="fa-solid fa-code"></i> &nbsp;Front-end Developer</p>
+    <h1 class="hero-title">
+      <span class="line">Begimov</span>
+      <span class="line accent">FrontendLab</span>
+    </h1>
+    <p class="hero-sub">Har bir loyiha — yangi dunyo. Dizayn va kod orqali g'oyalarni hayotga keltiraman.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary"><i class="fa-solid fa-eye"></i> Ishlarimni ko'rish</a>
+      <a href="https://github.com/muhayusuf105-coder" target="_blank" class="btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num" data-count="11">0</span>
+        <span class="stat-label"><i class="fa-solid fa-layer-group"></i> Loyiha</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-num" data-count="70%"></span><span class="stat-pc</span>
+        <span class="stat-label"><i class="fa-solid fa-star"></i> Sifat</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-num" data-count="2026">0</span>
+        <span class="stat-label"><i class="fa-solid fa-calendar"></i> Yildan beri</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">scroll down <span class="arrow">↓</span></div>
+</header>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-header">
+    <span class="section-tag">// ko'nikmalar</span>
+    <h2 class="section-title">Texnologiyalar</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fa-brands fa-html5 skill-icon" style="color:#e34f26"></i>
+      <span>HTML5</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="95"></div></div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt skill-icon" style="color:#1572b6"></i>
+      <span>CSS3</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-js skill-icon" style="color:#f7df1e"></i>
+      <span>JavaScript</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-git-alt skill-icon" style="color:#f05032"></i>
+      <span>Git</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-github skill-icon" style="color:#e8e8f0"></i>
+      <span>GitHub</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="78"></div></div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-mobile-screen skill-icon" style="color:#c8ff00"></i>
+      <span>Responsive</span>
+      <div class="skill-bar"><div class="skill-fill" data-w="92"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="section-header">
+    <span class="section-tag">// loyihalar</span>
+    <h2 class="section-title">Ishlarim</h2>
+  </div>
+
+  <div class="grid" id="projectGrid">
+
+    <div class="card" data-index="1">
+      <div class="card-num">01</div>
+      <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Akademynashr</h3>
+        <p class="card-desc">Kitob nashriyoti uchun to'liq veb-sayt. Zamonaviy dizayn va qulay navigatsiya.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Akademynashr-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="2">
+      <div class="card-num">02</div>
+      <div class="card-icon"><i class="fa-solid fa-images"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Pexer</h3>
+        <p class="card-desc">Rasm va media platformasi. Stock foto sayt kloni, chiroyli galereyalar.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Pixer-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="3">
+      <div class="card-num">03</div>
+      <div class="card-icon"><i class="fa-solid fa-bullhorn"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Blue Marketing</h3>
+        <p class="card-desc">Marketing agentligi landing page. Professional korporativ dizayn.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Blue-marketing-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card featured" data-index="4">
+      <div class="card-num">04</div>
+      <div class="card-icon"><i class="fa-solid fa-bread-slice"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Bakery</h3>
+        <p class="card-desc">Zamonaviy non-pishiriq sayt. Issiq ranglar va ishtaha ochiruvchi dizayn.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/BKR-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="5">
+      <div class="card-num">05</div>
+      <div class="card-icon"><i class="fa-solid fa-headphones"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">AirPods Pro</h3>
+        <p class="card-desc">Apple AirPods Pro mahsulot sahifasi kloni. Minimal va elegant.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Airpodspro-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="6">
+      <div class="card-num">06</div>
+      <div class="card-icon"><i class="fa-solid fa-film"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Vue Cinemas</h3>
+        <p class="card-desc">Kino markazi uchun sayt. Seanslar, filmlar va bron tizimi.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Vue-cinams-koyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card featured" data-index="7">
+      <div class="card-num">07</div>
+      <div class="card-icon"><i class="fa-solid fa-burger"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">E Food</h3>
+        <p class="card-desc">Online taom yetkazib berish platformasi. Restoran menyu va buyurtma tizimi.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/EFood-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="8">
+      <div class="card-num">08</div>
+      <div class="card-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Offer.Store</h3>
+        <p class="card-desc">E-commerce do'kon sayt. Chegirmalar, aksiyalar va mahsulot katalogi.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/Offer.Store-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="9">
+      <div class="card-num">09</div>
+      <div class="card-icon"><i class="fa-solid fa-shirt"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">STREET88</h3>
+        <p class="card-desc">Streetwear kiyim brendi sayt. Urban estetika, to'q ranglar.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/STREET88-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card" data-index="10">
+      <div class="card-num">10</div>
+      <div class="card-icon"><i class="fa-solid fa-mug-hot"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">CoffeeStyle</h3>
+        <p class="card-desc">Kofe do'koni uchun premium sayt. Issiq rang palitrasi va atmosfera.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/CoffeeStyle-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+    <div class="card featured" data-index="11">
+      <div class="card-num">11</div>
+      <div class="card-icon"><i class="fa-solid fa-candy-cane"></i></div>
+      <div class="card-body">
+        <h3 class="card-title">Shirinliklar</h3>
+        <p class="card-desc">Shirinlik va dessert do'koni sayt. Renkli, shirin va zavqli dizayn.</p>
+        <div class="card-tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <a class="card-link" href="https://github.com/muhayusuf105-coder/shirinliklar-loyha.git" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub →
+      </a>
+      <div class="card-glow"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-header">
+    <span class="section-tag">// aloqa</span>
+    <h2 class="section-title">Bog'lanish</h2>
+  </div>
+  <div class="contact-grid">
+    <a href="https://github.com/muhayusuf105-coder" target="_blank" class="contact-card">
+      <i class="fa-brands fa-github contact-icon"></i>
+      <span class="contact-label">GitHub</span>
+      <span class="contact-val">muhayusuf105-coder</span>
+    </a>
+    <a href="mailto:muhayusuf@example.com" class="contact-card">
+      <i class="fa-solid fa-envelope contact-icon"></i>
+      <span class="contact-label">Email</span>
+      <span class="contact-val">muhayusuf@example.com</span>
+    </a>
+    <a href="https://t.me/muhammadyusuf1106" target="_blank" class="contact-card">
+      <i class="fa-brands fa-telegram contact-icon"></i>
+      <span class="contact-label">Telegram</span> 
+      <span class="contact-val">@muhammadyusuf</span>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-name">Muhammad Yusuf</p>
+    <p class="footer-sub">Front-end Developer · 2025</p>
+    <div class="footer-socials">
+      <a href="https://github.com/muhayusuf105-coder" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://t.me/muhayusuf" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+      <a href="mailto:muhayusuf@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="footer-marquee">
+    <div class="marquee-track">
+      <span>HTML · CSS · JavaScript · UI/UX · Web Design · Front-end · </span>
+      <span>HTML · CSS · JavaScript · UI/UX · Web Design · Front-end · </span>
+    </div>
+  </div>
+</footer>
+
+<script src="script (1).js"></script>
+</body>
+</html>
